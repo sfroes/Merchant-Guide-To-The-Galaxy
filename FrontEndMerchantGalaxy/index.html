@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Merchant's Guide to the Galaxy</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/scripts.js"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="form-signin">
+        <div class="form-signin-heading text-center"><img class="image" src="img/icone.png" /></div>
+        <input type="text" id="inputTexto" class="form-control" placeholder="Texto a ser convertido" required autofocus>
+        <br />
+        <button class="btn btn-lg btn-primary btn-block" type="button" id="cvnumeroromano" onclick="ConverterInteiroNumeroRomano()">Converter para número romanos</button>
+        <button class="btn btn-lg btn-info btn-block" type="button" id="cvnumerointeiro" onclick="ConverterNumeroRomanoInteiro()">Converter para número inteiro</button>
+        <button class="btn btn-lg btn-warning btn-block" type="button" id="cvnumerogalactical" onclick="ConverterNumeroTextoGalactical()" data-toggle="modal">Converter texto galactical</button>
+        <br />
+        <div class="form-signin-heading text-center"><h6>Digite o endereço e a porta caso exista da sua maquina sem o Https://</h6></div>
+        <input type="text" id="inputEndereco" class="form-control" placeholder="Ex: localhost:44341" required autofocus>  
+    </form>
+
+    </div> <!-- /container -->
+    <div class="modal fade" id="modalResposta" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ModalCenterTitle">Resposta</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
