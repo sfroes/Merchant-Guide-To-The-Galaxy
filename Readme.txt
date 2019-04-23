@@ -9,6 +9,7 @@ A API foi desenvolvida usando:
 - Teste de unidade
 
 Dependências básicas para poder rodar a aplicação. Para baixa-la basta utilizar o nugget ou dependendo da configuração do Visual Studio ao fazer o Build da aplicação ele se encarregará de faze-las.
+Caso tenha alguma dificuldade para compilar os testes unitários utilize o comando Run code analysis clicando com o botão direito sobre um dos projeto.
 Funcionalidades que podem ser utilizadas na API:
 - Conversão de números romanos para números inteiros
 - Conversão de números inteiros para números romanos
